@@ -1,0 +1,47 @@
+.shop-blend {
+  background-color: #d33632;
+}
+.shop-blend .top {
+  padding: 80px 0;
+  color: #f7cec4;
+  font-family: "roc-grotesk";
+  height: 60vh;
+}
+.shop-blend .top h1 {
+  font-weight: 500;
+}
+
+.shop-blend .top .left img {
+  width: 160px;
+}
+.shop-blend .bottom {
+  padding: 20px 0 100px 0;
+}
+.shop-blend .bottom .left {
+  z-index: 1;
+  justify-content: center;
+}
+.shop-blend .bottom .left div {
+  background-color: #f7cec4;
+  margin-left: 20%;
+  font-family: "roc-grotesk";
+  color: #d33632;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  padding: 60px;
+  text-align: center;
+  align-items: center;
+}
+.shop-blend .bottom h1 {
+  font-weight: 500;
+}
+.shop-blend .bottom h2 {
+  font-weight: 500;
+}
+.tea {
+  width: 100%;
+  height: 1100px;
+  background-image: url("../../images/tea.png");
+  background-size: 100% 100%;
+}
