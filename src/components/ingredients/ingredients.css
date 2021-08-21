@@ -2,14 +2,82 @@
 
 .ing {
   background-color: #d33632;
+  color: #f7cec4;
+  font-family: "roc-grotesk";
+  overflow: hidden;
 }
-.ing .bottom {
+/* top */
+.ing .top {
+  padding-top: 130px;
+}
+.ing .top p {
+  text-align: center;
+}
+/* center */
+.ing .center {
   position: relative;
+  margin: 120px 0;
   height: 100vh;
+}
+.ing .center img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#cloud-a {
+  position: absolute;
+  left: 0;
+  top: 90%;
+}
+#cloud-b {
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+.clouds {
+  opacity: 0.6;
+}
+/* bottom */
+.ing .bottom {
+  height: 100vh;
+  position: relative;
 }
 .ing .bottom .spoon {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 35%;
-  /* z-index: -1; */
+  z-index: 1;
+}
+
+.ing .bottom .six {
+  position: absolute;
+  top: 10%;
+  width: 80%;
+  /* z-index: 1; */
+}
+.ing .bottom .left h1 {
+  font-family: "roc-grotesk";
+  text-shadow: 4px 0px 1px rgba(247, 206, 196, 0.6);
+  line-height: 1.2;
+}
+.ing .bottom .right {
+  overflow: hidden;
+}
+.ing .bottom .right h1 {
+  font-weight: 400;
+}
+.ing .bottom .right sup {
+  font-size: 15px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+.ing .bottom hr {
+  width: 80%;
+  margin: 15px 0;
+  background-color: #f7cec4;
+  border: 1px solid #f7cec4;
+}
+.ing .bottom p {
+  line-height: 1.5;
 }

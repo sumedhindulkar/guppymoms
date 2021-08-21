@@ -1,0 +1,54 @@
+.tea-time {
+  height: 100%;
+  position: relative;
+}
+.tea-time-bg {
+  background-image: url("../../images/BG-gradient.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+  filter: blur(3px);
+  height: 900px;
+  position: relative;
+}
+.tea-time .clouds {
+  opacity: 0.8;
+  position: absolute;
+}
+#cloudA {
+  bottom: -10%;
+  left: 20%;
+}
+#cloudB {
+  top: 0;
+  left: 0;
+}
+#cloudC {
+  top: 0;
+  right: 0;
+}
+/* melodies */
+.melodies {
+  width: 470px;
+  height: 650px;
+  background-color: #30ad61;
+  color: #f2e5d3;
+  position: absolute;
+  top: 125px;
+  left: 38%;
+}
+.playlist {
+  width: 100%;
+}
+.melodies h2 {
+  font-family: "roc-grotesk";
+  font-weight: 500;
+  font-size: 50px;
+}
+.old-days {
+  background-color: #d33631;
+  padding: 100px 0;
+}
+.old-days img {
+  border-radius: 50px;
+}

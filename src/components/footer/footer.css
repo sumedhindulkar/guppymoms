@@ -1,0 +1,20 @@
+.footer {
+  position: relative;
+}
+.footer .container {
+  background-color: #f7ddd7;
+  background-image: url("../../images/icons/guppy-moms-logo.png");
+  background-size: 50% 100%;
+  filter: blur(3px);
+  height: 100vh;
+}
+.footer .logo {
+  width: 270px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer .top {
+  border-bottom: 2px solid #fff;
+}

@@ -2,7 +2,7 @@ import React from "react";
 import "./shopBlend.css";
 import scroll from "../../images/Group9.svg";
 import guppy from "../../images/guppy.png";
-import text from "../../images/text.svg";
+import text from "../../images/text.png";
 
 export default function ShopBlend() {
   return (
@@ -50,10 +50,7 @@ export default function ShopBlend() {
         </div>
       </div>
       <div class="tea">
-        <img
-          scr="file:///C:/Users/Amey%20Nilesh%20Indulkar/Downloads/Mask%20Group%203.svg"
-          alt="text"
-        />
+        <img data-aos="zoom-in" src={text} />
       </div>
     </div>
   );
