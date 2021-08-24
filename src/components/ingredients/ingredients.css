@@ -81,3 +81,36 @@
 .ing .bottom p {
   line-height: 1.5;
 }
+
+@media (max-width: 480px) {
+  /* center */
+
+  /* bottom */
+  .ing .bottom {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .ing .bottom .left {
+    margin-left: 120px;
+    padding: 0 10px;
+  }
+
+  .ing .bottom .left h1 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .ing .bottom .left p {
+    line-height: 1.6;
+  }
+  .ing .bottom .spoon {
+    top: 100px;
+    left: -10px;
+    width: 130px;
+  }
+  .ing .bottom .right sup {
+    font-size: 11px;
+  }
+  .ing .bottom hr {
+    width: 100%;
+  }
+}

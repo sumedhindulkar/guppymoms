@@ -67,7 +67,7 @@ export default function Ingredients() {
           </div>
           <img className="spoon" data-aos="fade-up" src={spoon} alt="spoon" />
           <img
-            className="six"
+            className="six display-none-mob "
             data-aos="fade-up"
             data-aos-delay="300"
             src={six}

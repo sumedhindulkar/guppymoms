@@ -3,9 +3,11 @@ import "./header.css";
 import "../navbar/Navbar";
 import logo from "../../images/guppy-logo.png";
 import Navbar from "../navbar/Navbar";
+import bgImg from "../../images/guppymoms-header-bg.jpg";
 export default function Header() {
   return (
     <div className="header">
+      <img className="header-bg" src={bgImg} alt="tea" />
       <div className="container">
         <Navbar />
         <div className="main">

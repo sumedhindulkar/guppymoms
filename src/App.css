@@ -109,3 +109,34 @@ p {
   margin-top: -40px;
   width: 240px;
 }
+@media (max-width: 480px) {
+  .w-20,
+  .w-30,
+  .w-40,
+  .w-50,
+  .w-60,
+  .w-70,
+  .w-80 {
+    width: auto;
+  }
+  h1 {
+    font-size: 33px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .container {
+    margin: 0 28px;
+  }
+  .display-none-mob {
+    display: none;
+  }
+  .my-btn-1 {
+    width: 220px;
+    padding: 12px 0px;
+  }
+}

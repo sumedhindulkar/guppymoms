@@ -21,3 +21,15 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 35px 0;
+  }
+  .navbar .logo {
+    width: 140px;
+  }
+  .navbar h1 {
+    font-size: 30px;
+  }
+}

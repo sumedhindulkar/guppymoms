@@ -40,3 +40,51 @@
   background-image: url("../../images/tea.png");
   background-size: 100% 100%;
 }
+
+@media (max-width: 480px) {
+  /* top */
+  .shop-blend .container .top,
+  .shop-blend .container .bottom {
+    flex-wrap: wrap;
+    height: 100%;
+    position: relative;
+  }
+  .shop-blend .container .top .right p {
+    margin: 20px 0;
+  }
+  .shop-blend .top .left .scroll-img {
+    position: absolute;
+    bottom: 80px;
+    width: 100px;
+  }
+  .shop-blend .top .right p:last-child {
+    width: 60%;
+    padding: 0 20px;
+    margin-left: 110px;
+  }
+  /* bottom */
+  .shop-blend .container .bottom {
+    flex-direction: column-reverse;
+  }
+  .shop-blend .container .bottom img {
+    height: 650px;
+    width: auto;
+    margin-left: -120px;
+  }
+  .shop-blend .container .bottom .left > div {
+    height: 280px;
+    width: 280px;
+    margin-top: -150px;
+    margin-left: -20px;
+    padding: 60px;
+  }
+  .shop-blend .container .bottom .left h2 {
+    font-size: 18px;
+  }
+  .shop-blend .tea {
+    height: 510px;
+  }
+  .shop-blend .tea img {
+    width: 200%;
+  }
+}

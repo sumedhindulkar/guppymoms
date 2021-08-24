@@ -14,7 +14,7 @@ export default function ShopBlend() {
               Throw Some Lava <br />
               In Your Cuppa
             </h1>
-            <img src={scroll} alt="scroll" />
+            <img className="scroll-img" src={scroll} alt="scroll" />
           </div>
           <div className=" right w-50 flex flex-column  justify-content-evenly ">
             <p className="w-80">
@@ -39,7 +39,7 @@ export default function ShopBlend() {
               <h1>Want a taste?</h1>
               <h2>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been
+                industry.
               </h2>
               <button className="my-btn-1">SHOP OUR BLEND</button>
             </div>

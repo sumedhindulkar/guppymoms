@@ -5,14 +5,17 @@ import ShopBlend from "../components/shopBlend/ShopBlend";
 import Ingredients from "../components/ingredients/Ingredients";
 import Teatime from "../components/teatime/Teatime";
 import Footer from "../components/footer/Footer";
+
+import "./homeMobile.css";
+
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Header />
       <ShopBlend />
       <Ingredients />
-      <Teatime />
-      <Footer />
+      {/* <Teatime />
+      <Footer /> */}
     </div>
   );
 }
