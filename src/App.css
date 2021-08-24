@@ -37,11 +37,16 @@ p {
   line-height: 1.2;
   word-spacing: 2px;
 }
+.mx-3 {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
 .my-2 {
-  margin: 20px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .my-3 {
-  margin: 30px auto;
+  margin: 30px 0;
 }
 .mt-max {
   margin-top: 120px;
@@ -89,4 +94,18 @@ p {
   border: none;
   background-color: #d33631;
   color: #fff;
+}
+.my-btn-2 {
+  width: 200px;
+  padding: 15px;
+  font-family: "roc-grotesk";
+  font-size: 16px;
+  border-radius: 50px;
+  border: 1px solid #d33631;
+  background-color: transparent;
+  color: #d33631;
+}
+.navbar .logo {
+  margin-top: -40px;
+  width: 240px;
 }

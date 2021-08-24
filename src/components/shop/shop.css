@@ -1,0 +1,78 @@
+.shop {
+  background-color: #f2e5d3;
+  color: #d33631;
+  width: 100%;
+  font-family: "roc-grotesk";
+  padding: 40px 0 0 0;
+}
+.shop h2 {
+  font-weight: 600;
+  line-height: 1.3;
+}
+.shop p {
+  line-height: 1.5;
+}
+.shop input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #d33631;
+  color: white;
+  width: 50%;
+  padding: 10px 0 8px 0;
+  font-size: 20px;
+}
+::placeholder {
+  color: #d33631;
+  opacity: 0.6;
+}
+/* tea ingridients */
+.tea-ingridients {
+  padding: 40px 0;
+  border-top: 2px solid #d33631;
+  border-bottom: 2px solid #d33631;
+}
+.tea-ingridients span {
+  font-weight: 600;
+}
+/* sprinkle */
+.sprinkle {
+  padding: 40px 0 10px 0;
+  border-bottom: 2px solid #d33631;
+}
+.sprinkle p {
+  width: 70%;
+  margin-bottom: 30px;
+}
+/* Nutritional fact */
+.nutrition {
+  padding: 40px 0;
+}
+.nutrition h3 {
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.nutrition-p {
+  width: 100%;
+  border: 3px solid #d33631;
+  border-radius: 22px;
+}
+.nutrition-p > div:first-child {
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #d33631;
+}
+.nutrition-p > div:last-child {
+  padding: 10px 40px;
+}
+.nutrition-p .nutri-contain {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+.nutri-contain span {
+  width: 100%;
+  border-bottom: 2px #d33631 dotted;
+  position: relative;
+  top: -10px;
+}

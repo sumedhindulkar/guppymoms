@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import AOS from "aos";
-import Header from "./components/header/Header";
-import ShopBlend from "./components/shopBlend/ShopBlend";
-import Ingredients from "./components/ingredients/Ingredients";
-import Teatime from "./components/teatime/Teatime";
-import Footer from "./components/footer/Footer";
 import "aos/dist/aos.css";
+import Home from "./views/Home";
+import ShopPage from "./views/ShopPage";
+import { Switch, Route, Redirect } from "react-router-dom";
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1900 });
@@ -14,10 +12,13 @@ function App() {
 
   return (
     <div>
-      <Header />
-      <ShopBlend />
-      <Ingredients />
-      <Teatime />
+      {/* <Navbar /> */}
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/shop" component={ShopPage} />
+        <Redirect to="/" />
+      </Switch>
+      {/* <Footer /> */}
     </div>
   );
 }
