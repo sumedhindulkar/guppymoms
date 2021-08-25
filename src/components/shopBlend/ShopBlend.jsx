@@ -34,7 +34,11 @@ export default function ShopBlend() {
           </div>
         </div>
         <div className="bottom  flex">
-          <div data-aos="fade-right" className="left w-50 flex flex-column">
+          <div
+            className="pinkCircle"
+            data-aos="fade-right"
+            className="left w-50 flex flex-column"
+          >
             <div className="flex flex-column justify-content-evenly">
               <h1>Want a taste?</h1>
               <h2>

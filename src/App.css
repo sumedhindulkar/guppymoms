@@ -18,6 +18,10 @@
 .justify-content-between {
   justify-content: space-between;
 }
+
+.justify-content-center {
+  justify-content: center;
+}
 .justify-content-evenly {
   justify-content: space-evenly;
 }
@@ -109,6 +113,7 @@ p {
   margin-top: -40px;
   width: 240px;
 }
+
 @media (max-width: 480px) {
   .w-20,
   .w-30,

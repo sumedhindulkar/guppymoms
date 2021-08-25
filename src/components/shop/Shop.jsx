@@ -68,9 +68,9 @@ export default function Shop() {
               <p>per 100g</p>
             </div>
             <div>
-              {Object.keys(nutriFacts).map((item) => {
+              {Object.keys(nutriFacts).map((item, i) => {
                 return (
-                  <div className="nutri-contain">
+                  <div key={i} className="nutri-contain">
                     <p>{item}</p>
                     <span />
                     <p>{nutriFacts[item]}</p>
