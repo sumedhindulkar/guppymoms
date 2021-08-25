@@ -8,6 +8,7 @@ export default function Navbar() {
   const [bool, setBool] = useState(false);
   const [contact, setContact] = useState(false);
   const navLink = { textDecoration: "none", color: "inherit" };
+  const openClose = { cursor: "pointer" };
   return (
     <div className="navbar flex justify-content-between">
       <div>
@@ -17,7 +18,7 @@ export default function Navbar() {
       <img class="logo" src={logo} alt="logo" />
       <div>
         <h1
-          style={{ cursor: "pointer" }}
+          style={openClose}
           onClick={() => {
             setBool(!bool);
           }}
@@ -27,10 +28,11 @@ export default function Navbar() {
         <div className={bool ? "navbar-active nav" : "display-none"}>
           <div>
             <h1
-              style={{ cursor: "pointer" }}
+              style={openClose}
               onClick={() => {
                 setBool(!bool);
               }}
+              className="close-nav"
             >
               close
             </h1>

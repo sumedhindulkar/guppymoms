@@ -68,8 +68,16 @@
   }
   .navbar .logo {
     width: 140px;
+    margin-top: -40px;
   }
   .navbar h1 {
     font-size: 30px;
+  }
+  .nav {
+    width: 100%;
+    padding: 40px 0;
+  }
+  .navbar .close-nav {
+    margin-right: 40px;
   }
 }
