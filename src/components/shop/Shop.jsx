@@ -10,7 +10,7 @@ export default function Shop() {
     Sodium: "1.29g",
   };
   return (
-    <div className="container flex">
+    <div className="container main-shop flex">
       <div className="w-50 left">
         <img src={shopTea} alt="shop" />
       </div>
@@ -33,13 +33,16 @@ export default function Shop() {
             <input type="text" placeholder="Enter Pincode to check delivery" />
             <div className="">
               <button className="my-btn-1 my-3">ADD TO CART</button>
-              <button className="my-btn-2 mx-3 my-3">GET SUBSCRIPTION</button>
+              <button className=" subscription my-btn-2 mx-3 my-3">
+                GET SUBSCRIPTION
+              </button>
             </div>
           </form>
         </div>
         <div className="tea-ingridients">
           <p>
-            <span>Ingredients :</span> Cardamom, Cinnamon, Nutmeg, Star <br />
+            <span>Ingredients :</span> Cardamom, Cinnamon, Nutmeg, Star{" "}
+            <br className="display-none-mob" />
             Anise, Clove, Black Pepper, Saffron.
           </p>
         </div>
