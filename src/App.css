@@ -120,10 +120,10 @@ p {
     width: auto;
   }
   h1 {
-    font-size: 33px;
+    font-size: 33px !important;
   }
   h2 {
-    font-size: 28px;
+    font-size: 28px !important;
   }
   p {
     font-size: 15px;

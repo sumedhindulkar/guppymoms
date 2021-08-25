@@ -18,8 +18,8 @@ export default function Ingredients() {
           </p>
         </div>
         <div className="center">
-          <img classname="stick" src={stickers} alt="stickers" />
-          <img classname="stick" src={bowl} alt="bowl" />
+          <img className="tea-ing" src={stickers} alt="stickers" />
+          <img className="tea-bowl" src={bowl} alt="bowl" />
           <div id="cloud-a" data-aos="fade-right">
             <img className="clouds" src={clouds} alt="clouds" />
           </div>

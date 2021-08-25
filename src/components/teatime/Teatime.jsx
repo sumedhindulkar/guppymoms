@@ -40,7 +40,7 @@ export default function Teatime() {
           <h2>Teatime Melodies</h2>
         </div>
       </div>
-      <div className="old-days">
+      <div className="old-days display-none-mob">
         <div className="container flex justify-content-evenly">
           <img src={oldA} alt="old" />
           <img src={oldB} alt="old" />

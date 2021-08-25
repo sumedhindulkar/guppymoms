@@ -14,8 +14,8 @@ function Home() {
       <Header />
       <ShopBlend />
       <Ingredients />
-      {/* <Teatime />
-      <Footer /> */}
+      <Teatime />
+      <Footer />
     </div>
   );
 }

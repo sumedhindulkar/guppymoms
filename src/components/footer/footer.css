@@ -55,3 +55,56 @@
   margin: 0 60px;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .footer {
+    overflow: auto;
+    padding: 40px 0 0 0;
+  }
+  .footer .top {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  /* top right */
+  .footer .tr-top {
+    padding: 0;
+  }
+  .footer .tr-top .flex div {
+    padding: 0 25px 30px 0;
+  }
+  .footer .tr-bottom {
+    padding: 40px 0;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #fff;
+  }
+  .footer .tr-bottom input {
+    margin: 0 0;
+    /* width: 120px; */
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  /* top left  */
+  .footer .top .left {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer .tl-right {
+    padding: 0;
+    border: 0;
+    text-align: center;
+  }
+  .footer .tl-left .logo {
+    width: 180px;
+  }
+  /* marquee  */
+  .footer marquee .bottom .flex {
+    padding: 60px 10px;
+  }
+  .footer marquee .bottom .flex img {
+    width: 50px;
+  }
+  .footer marquee .bottom .flex h2 {
+    margin: auto 30px;
+  }
+}

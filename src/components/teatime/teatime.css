@@ -52,3 +52,20 @@
 .old-days img {
   border-radius: 50px;
 }
+
+@media (max-width: 480px) {
+  .melodies {
+    width: 320px;
+    height: 450px;
+    top: 230px;
+    left: 5%;
+  }
+  .tea-time .clouds {
+    width: 200px;
+  }
+  #cloudA {
+    bottom: 0;
+    left: -150px;
+    width: 400px;
+  }
+}

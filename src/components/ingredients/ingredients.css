@@ -84,7 +84,18 @@
 
 @media (max-width: 480px) {
   /* center */
-
+  .ing .center {
+    margin: 0;
+  }
+  .ing .center .tea-ing {
+    width: 100%;
+  }
+  .ing .center .tea-bowl {
+    width: 80%;
+  }
+  .ing .clouds {
+    width: 150px;
+  }
   /* bottom */
   .ing .bottom {
     flex-wrap: wrap;
@@ -103,7 +114,7 @@
     line-height: 1.6;
   }
   .ing .bottom .spoon {
-    top: 100px;
+    top: 70px;
     left: -10px;
     width: 130px;
   }
