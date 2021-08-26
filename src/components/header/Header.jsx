@@ -12,7 +12,7 @@ export default function Header() {
         <Navbar />
         <div className="main">
           <h2>
-            A spoonfun of pyaar| <br /> every morning
+            A spoonful of pyaar <br /> every morning
           </h2>
           <button className="my-btn-1 my-3">SHOP OUR BLEND</button>
         </div>

@@ -50,7 +50,7 @@ export default function Footer() {
         </div>
         <marquee>
           <div className="bottom flex">
-            {[1, 2, 3, 4, 5].map((item) => {
+            {[1, 2].map((item) => {
               return (
                 <>
                   <div className="flex">
